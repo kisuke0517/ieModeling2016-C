@@ -5,8 +5,8 @@
 ;ScreenRatio=fix
 ;ScreenCentering=true
 ;useCamera=true
-;scWidth=1080
-;scHeight=1920
+;scWidth=1600
+;scHeight=1980
 ;chSpeed=30
 ;chSpeeds.fast=10
 ;chSpeeds.normal=30
@@ -63,8 +63,8 @@
 ;marginB=8
 ;ml=16
 ;mt=16
-;mw=1080-32
-;mh=1920-32
+;mw=1600-32
+;mh=1980-32
 ;defaultAutoReturn=true
 ;marginRCh=2
 ;defaultFontSize=48

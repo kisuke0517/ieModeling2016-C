@@ -16,7 +16,6 @@
 		F0E2A3561E5B4396009A159C /* scriptsample in Resources */ = {isa = PBXBuildFile; fileRef = F0E2A3551E5B4396009A159C /* scriptsample */; };
 		F0F2C1271E425FF700A5BE2D /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F2C1261E425FF700A5BE2D /* NextViewController.swift */; };
 		F0F2C1291E42613200A5BE2D /* web in Resources */ = {isa = PBXBuildFile; fileRef = F0F2C1281E42613200A5BE2D /* web */; };
-		F0F2C12B1E42C55900A5BE2D /* basic2.html in Resources */ = {isa = PBXBuildFile; fileRef = F0F2C12A1E42C55900A5BE2D /* basic2.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		F0E2A3551E5B4396009A159C /* scriptsample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scriptsample; path = ../../scriptsample; sourceTree = "<group>"; };
 		F0F2C1261E425FF700A5BE2D /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F0F2C1281E42613200A5BE2D /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = SOURCE_ROOT; };
-		F0F2C12A1E42C55900A5BE2D /* basic2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = basic2.html; path = ../../../Downloads/sample/ch5/basic2.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				226A76331C1AB55700B3B6B6 /* Assets.xcassets */,
 				F0E2A3551E5B4396009A159C /* scriptsample */,
 				F0F2C1281E42613200A5BE2D /* web */,
-				F0F2C12A1E42C55900A5BE2D /* basic2.html */,
 				226A76351C1AB55700B3B6B6 /* LaunchScreen.storyboard */,
 				226A76381C1AB55700B3B6B6 /* Info.plist */,
 			);
@@ -111,7 +108,9 @@
 				TargetAttributes = {
 					226A76281C1AB55700B3B6B6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VLR3L6JZ85;
 						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -143,7 +142,6 @@
 				226A76341C1AB55700B3B6B6 /* Assets.xcassets in Resources */,
 				F0E2A3561E5B4396009A159C /* scriptsample in Resources */,
 				226A76321C1AB55700B3B6B6 /* Main.storyboard in Resources */,
-				F0F2C12B1E42C55900A5BE2D /* basic2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +198,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -219,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -244,9 +244,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -257,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -268,11 +270,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				INFOPLIST_FILE = UIPageViewControllerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.UIPageViewControllerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = "ieModeling-C2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -280,11 +286,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				INFOPLIST_FILE = UIPageViewControllerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.UIPageViewControllerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = "ieModeling-C2017";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

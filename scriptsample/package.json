@@ -1,1 +1,1 @@
-{"name":"tyranoscript","main":"app://./index.html","window":{"title":"tyrano system loading","icon":"link.png","toolbar":false,"frame":true,"width":1080,"height":1920,"position":"mouse","min_width":960,"min_height":640},"webkit":{"plugin":true}}
+{"name":"tyranoscript","main":"app://./index.html","window":{"title":"tyrano system loading","icon":"link.png","toolbar":false,"frame":true,"width":1200,"height":1920,"position":"mouse","min_width":960,"min_height":640},"webkit":{"plugin":true}}
