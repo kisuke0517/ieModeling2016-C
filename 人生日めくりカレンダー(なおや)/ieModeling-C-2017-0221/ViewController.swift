@@ -50,19 +50,23 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
             AppDelegate.dir = "naoya3"
             self.present(next,animated: true, completion: nil)
-        }//else if(m == 20){
-         //   let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-         //   AppDelegate.dir = "kisuke4"
-         //   self.present(next,animated: true, completion: nil)
-        //}else if(m == 25){
-          //  let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-          //  AppDelegate.dir = "kisuke5"
-          //  self.present(next,animated: true, completion: nil)
-        //}else if(m == 30){
-          //  let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-          //  AppDelegate.dir = "kisuke6"
-          //  self.present(next,animated: true, completion: nil)
-        //}
+        }else if(m == 18){
+            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+           AppDelegate.dir = "naoya4"
+            self.present(next,animated: true, completion: nil)
+        }else if(m == 20){
+            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+            AppDelegate.dir = "naoya5"
+            self.present(next,animated: true, completion: nil)
+        }else if(m == 25){
+            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+            AppDelegate.dir = "naoya6"
+            self.present(next,animated: true, completion: nil)
+        }else if(m == 30){
+            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+            AppDelegate.dir = "naoya7"
+            self.present(next,animated: true, completion: nil)
+        }
         let vc = storyboard?.instantiateViewController(withIdentifier: "DataViewController") as! DataViewController
         vc.labelStr = m.description
         return vc
