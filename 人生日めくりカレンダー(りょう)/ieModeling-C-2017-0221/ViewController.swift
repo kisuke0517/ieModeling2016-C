@@ -40,27 +40,27 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         }
         if(m == 5){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke1"
+            AppDelegate.dir = "ryou1"
             self.present(next,animated: true, completion: nil)
         }else if(m == 10){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke2"
+            AppDelegate.dir = "ryou2"
             self.present(next,animated: true, completion: nil)
         }else if(m == 15){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke3"
+            AppDelegate.dir = "ryou3"
             self.present(next,animated: true, completion: nil)
         }else if(m == 20){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke4"
+            AppDelegate.dir = "ryou4"
             self.present(next,animated: true, completion: nil)
         }else if(m == 25){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke5"
+            AppDelegate.dir = "ryou5"
             self.present(next,animated: true, completion: nil)
         }else if(m == 30){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke6"
+            AppDelegate.dir = "ryou6"
             self.present(next,animated: true, completion: nil)
         }
         let vc = storyboard?.instantiateViewController(withIdentifier: "DataViewController") as! DataViewController

@@ -40,29 +40,29 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         }
         if(m == 5){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke1"
+            AppDelegate.dir = "naoya1"
             self.present(next,animated: true, completion: nil)
         }else if(m == 10){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke2"
+            AppDelegate.dir = "naoya2"
             self.present(next,animated: true, completion: nil)
         }else if(m == 15){
             let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke3"
+            AppDelegate.dir = "naoya3"
             self.present(next,animated: true, completion: nil)
-        }else if(m == 20){
-            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke4"
-            self.present(next,animated: true, completion: nil)
-        }else if(m == 25){
-            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke5"
-            self.present(next,animated: true, completion: nil)
-        }else if(m == 30){
-            let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
-            AppDelegate.dir = "kisuke6"
-            self.present(next,animated: true, completion: nil)
-        }
+        }//else if(m == 20){
+         //   let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+         //   AppDelegate.dir = "kisuke4"
+         //   self.present(next,animated: true, completion: nil)
+        //}else if(m == 25){
+          //  let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+          //  AppDelegate.dir = "kisuke5"
+          //  self.present(next,animated: true, completion: nil)
+        //}else if(m == 30){
+          //  let next = storyboard!.instantiateViewController(withIdentifier: "NextViewController")
+          //  AppDelegate.dir = "kisuke6"
+          //  self.present(next,animated: true, completion: nil)
+        //}
         let vc = storyboard?.instantiateViewController(withIdentifier: "DataViewController") as! DataViewController
         vc.labelStr = m.description
         return vc

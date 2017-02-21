@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700598BA1E5C41B900927ACA /* naoya1 in Resources */ = {isa = PBXBuildFile; fileRef = 700598B71E5C41B900927ACA /* naoya1 */; };
+		700598BB1E5C41B900927ACA /* naoya2 in Resources */ = {isa = PBXBuildFile; fileRef = 700598B81E5C41B900927ACA /* naoya2 */; };
+		700598BC1E5C41B900927ACA /* naoya3 in Resources */ = {isa = PBXBuildFile; fileRef = 700598B91E5C41B900927ACA /* naoya3 */; };
 		F0395DFD1E5C0470003538B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0395DFC1E5C0470003538B1 /* AppDelegate.swift */; };
 		F0395DFF1E5C0470003538B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0395DFE1E5C0470003538B1 /* ViewController.swift */; };
 		F0395E021E5C0470003538B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0395E001E5C0470003538B1 /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		700598B71E5C41B900927ACA /* naoya1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = naoya1; sourceTree = SOURCE_ROOT; };
+		700598B81E5C41B900927ACA /* naoya2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = naoya2; sourceTree = SOURCE_ROOT; };
+		700598B91E5C41B900927ACA /* naoya3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = naoya3; sourceTree = SOURCE_ROOT; };
 		F0395DF91E5C0470003538B1 /* ieModeling-C-2017-0221.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ieModeling-C-2017-0221.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0395DFC1E5C0470003538B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0395DFE1E5C0470003538B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				F0395E2F1E5C0C04003538B1 /* NextViewController.swift */,
 				F0395E2D1E5C0561003538B1 /* DataViewController.swift */,
 				F0395E061E5C0470003538B1 /* Assets.xcassets */,
+				700598B71E5C41B900927ACA /* naoya1 */,
+				700598B81E5C41B900927ACA /* naoya2 */,
+				700598B91E5C41B900927ACA /* naoya3 */,
 				F0395E081E5C0470003538B1 /* LaunchScreen.storyboard */,
 				F0395E0B1E5C0470003538B1 /* Info.plist */,
 				F0395E031E5C0470003538B1 /* ieModeling_C_2017_0221.xcdatamodeld */,
@@ -242,9 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700598BB1E5C41B900927ACA /* naoya2 in Resources */,
+				700598BC1E5C41B900927ACA /* naoya3 in Resources */,
 				F0395E0A1E5C0470003538B1 /* LaunchScreen.storyboard in Resources */,
 				F0395E071E5C0470003538B1 /* Assets.xcassets in Resources */,
 				F0395E021E5C0470003538B1 /* Main.storyboard in Resources */,
+				700598BA1E5C41B900927ACA /* naoya1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +441,7 @@
 				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				INFOPLIST_FILE = "ieModeling-C-2017-0221/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lifecallender;
+				PRODUCT_BUNDLE_IDENTIFIER = naoyacallender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -443,7 +455,7 @@
 				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				INFOPLIST_FILE = "ieModeling-C-2017-0221/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lifecallender;
+				PRODUCT_BUNDLE_IDENTIFIER = naoyacallender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

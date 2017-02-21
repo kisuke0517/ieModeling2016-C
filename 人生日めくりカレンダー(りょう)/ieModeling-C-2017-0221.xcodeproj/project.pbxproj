@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		700598901E5C11CA00927ACA /* kisuke1 in Resources */ = {isa = PBXBuildFile; fileRef = 7005988F1E5C11CA00927ACA /* kisuke1 */; };
-		700598A31E5C1D1A00927ACA /* kisuke2 in Resources */ = {isa = PBXBuildFile; fileRef = 7005989D1E5C1D1900927ACA /* kisuke2 */; };
-		700598A41E5C1D1A00927ACA /* kisuke3 in Resources */ = {isa = PBXBuildFile; fileRef = 7005989E1E5C1D1900927ACA /* kisuke3 */; };
-		700598A51E5C1D1A00927ACA /* kisuke4 in Resources */ = {isa = PBXBuildFile; fileRef = 7005989F1E5C1D1A00927ACA /* kisuke4 */; };
-		700598A61E5C1D1A00927ACA /* kisuke5 in Resources */ = {isa = PBXBuildFile; fileRef = 700598A01E5C1D1A00927ACA /* kisuke5 */; };
-		700598A71E5C1D1A00927ACA /* kisuke6 in Resources */ = {isa = PBXBuildFile; fileRef = 700598A11E5C1D1A00927ACA /* kisuke6 */; };
+		700598C31E5C51FB00927ACA /* ryou1 in Resources */ = {isa = PBXBuildFile; fileRef = 700598BD1E5C51FB00927ACA /* ryou1 */; };
+		700598C41E5C51FB00927ACA /* ryou2 in Resources */ = {isa = PBXBuildFile; fileRef = 700598BE1E5C51FB00927ACA /* ryou2 */; };
+		700598C51E5C51FB00927ACA /* ryou3 in Resources */ = {isa = PBXBuildFile; fileRef = 700598BF1E5C51FB00927ACA /* ryou3 */; };
+		700598C61E5C51FB00927ACA /* ryou4 in Resources */ = {isa = PBXBuildFile; fileRef = 700598C01E5C51FB00927ACA /* ryou4 */; };
+		700598C71E5C51FB00927ACA /* ryou5 in Resources */ = {isa = PBXBuildFile; fileRef = 700598C11E5C51FB00927ACA /* ryou5 */; };
+		700598C81E5C51FB00927ACA /* ryou6 in Resources */ = {isa = PBXBuildFile; fileRef = 700598C21E5C51FB00927ACA /* ryou6 */; };
 		F0395DFD1E5C0470003538B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0395DFC1E5C0470003538B1 /* AppDelegate.swift */; };
 		F0395DFF1E5C0470003538B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0395DFE1E5C0470003538B1 /* ViewController.swift */; };
 		F0395E021E5C0470003538B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0395E001E5C0470003538B1 /* Main.storyboard */; };
@@ -43,12 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7005988F1E5C11CA00927ACA /* kisuke1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kisuke1; path = ../../kisuke1; sourceTree = "<group>"; };
-		7005989D1E5C1D1900927ACA /* kisuke2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kisuke2; path = ../../kisuke2; sourceTree = "<group>"; };
-		7005989E1E5C1D1900927ACA /* kisuke3 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kisuke3; path = ../../kisuke3; sourceTree = "<group>"; };
-		7005989F1E5C1D1A00927ACA /* kisuke4 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kisuke4; path = ../../kisuke4; sourceTree = "<group>"; };
-		700598A01E5C1D1A00927ACA /* kisuke5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kisuke5; path = ../../kisuke5; sourceTree = "<group>"; };
-		700598A11E5C1D1A00927ACA /* kisuke6 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kisuke6; path = ../../kisuke6; sourceTree = "<group>"; };
+		700598BD1E5C51FB00927ACA /* ryou1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ryou1; sourceTree = SOURCE_ROOT; };
+		700598BE1E5C51FB00927ACA /* ryou2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ryou2; sourceTree = SOURCE_ROOT; };
+		700598BF1E5C51FB00927ACA /* ryou3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ryou3; sourceTree = SOURCE_ROOT; };
+		700598C01E5C51FB00927ACA /* ryou4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ryou4; sourceTree = SOURCE_ROOT; };
+		700598C11E5C51FB00927ACA /* ryou5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ryou5; sourceTree = SOURCE_ROOT; };
+		700598C21E5C51FB00927ACA /* ryou6 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ryou6; sourceTree = SOURCE_ROOT; };
 		F0395DF91E5C0470003538B1 /* ieModeling-C-2017-0221.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ieModeling-C-2017-0221.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0395DFC1E5C0470003538B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0395DFE1E5C0470003538B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,12 +121,12 @@
 				F0395E2F1E5C0C04003538B1 /* NextViewController.swift */,
 				F0395E2D1E5C0561003538B1 /* DataViewController.swift */,
 				F0395E061E5C0470003538B1 /* Assets.xcassets */,
-				7005988F1E5C11CA00927ACA /* kisuke1 */,
-				7005989D1E5C1D1900927ACA /* kisuke2 */,
-				7005989E1E5C1D1900927ACA /* kisuke3 */,
-				7005989F1E5C1D1A00927ACA /* kisuke4 */,
-				700598A01E5C1D1A00927ACA /* kisuke5 */,
-				700598A11E5C1D1A00927ACA /* kisuke6 */,
+				700598BD1E5C51FB00927ACA /* ryou1 */,
+				700598BE1E5C51FB00927ACA /* ryou2 */,
+				700598BF1E5C51FB00927ACA /* ryou3 */,
+				700598C01E5C51FB00927ACA /* ryou4 */,
+				700598C11E5C51FB00927ACA /* ryou5 */,
+				700598C21E5C51FB00927ACA /* ryou6 */,
 				F0395E081E5C0470003538B1 /* LaunchScreen.storyboard */,
 				F0395E0B1E5C0470003538B1 /* Info.plist */,
 				F0395E031E5C0470003538B1 /* ieModeling_C_2017_0221.xcdatamodeld */,
@@ -260,15 +260,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700598C81E5C51FB00927ACA /* ryou6 in Resources */,
+				700598C41E5C51FB00927ACA /* ryou2 in Resources */,
+				700598C71E5C51FB00927ACA /* ryou5 in Resources */,
 				F0395E0A1E5C0470003538B1 /* LaunchScreen.storyboard in Resources */,
-				700598A61E5C1D1A00927ACA /* kisuke5 in Resources */,
-				700598A41E5C1D1A00927ACA /* kisuke3 in Resources */,
-				700598901E5C11CA00927ACA /* kisuke1 in Resources */,
+				700598C31E5C51FB00927ACA /* ryou1 in Resources */,
+				700598C51E5C51FB00927ACA /* ryou3 in Resources */,
 				F0395E071E5C0470003538B1 /* Assets.xcassets in Resources */,
-				700598A31E5C1D1A00927ACA /* kisuke2 in Resources */,
-				700598A71E5C1D1A00927ACA /* kisuke6 in Resources */,
 				F0395E021E5C0470003538B1 /* Main.storyboard in Resources */,
-				700598A51E5C1D1A00927ACA /* kisuke4 in Resources */,
+				700598C61E5C51FB00927ACA /* ryou4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +453,7 @@
 				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				INFOPLIST_FILE = "ieModeling-C-2017-0221/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lifecallender;
+				PRODUCT_BUNDLE_IDENTIFIER = ryoucallender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -467,7 +467,7 @@
 				DEVELOPMENT_TEAM = VLR3L6JZ85;
 				INFOPLIST_FILE = "ieModeling-C-2017-0221/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lifecallender;
+				PRODUCT_BUNDLE_IDENTIFIER = ryoucallender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
