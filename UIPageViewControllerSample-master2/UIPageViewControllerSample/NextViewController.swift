@@ -1,18 +1,18 @@
 import UIKit
+import WebKit
 
-class NextViewController: UIViewController,UIGestureRecognizerDelegate {
+class NextViewController: UIViewController,UIGestureRecognizerDelegate,WKNavigationDelegate {
     
     
-    @IBOutlet weak var web1: UIWebView!
+    @IBOutlet weak var web1: WKWebView!
     
     var n: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //web1.delegate = self
+        //web1.navigationDelegate = self
         let path : String = Bundle.main.path(forResource:"index", ofType: "html", inDirectory: "scriptsample")!
-        web1.loadRequest(URLRequest(url: URL(string: path)! as URL) as URLRequest)
-        
+        web1.load(URLRequest(url: URL(string: path)! as URL) as URLRequest)
         
         // シングルタップ
         let singleTap = UITapGestureRecognizer(target: self, action: #selector(NextViewController.tapSingle(_:))) //Swift2.2以前
@@ -26,13 +26,16 @@ class NextViewController: UIViewController,UIGestureRecognizerDelegate {
         
         view.addGestureRecognizer(singleTap)
     }
-    
+   // func web1(_web1: WKWebView,didCommit Navigation: WKNavigation!){
+     //   self.dismiss(animated: true, completion: nil)
+        
+    //}
     func tapSingle(_ sender: UITapGestureRecognizer) {
         n = n + 1;
         //let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         //vc.m = 2
         
-        if(n == 5){
+        if(n == 1){
             //let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
             //vc.m = vc.m + 1
             //performSegue(withIdentifier: "nextSegue", sender: nil)
