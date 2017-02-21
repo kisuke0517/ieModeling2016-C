@@ -12,7 +12,7 @@ class NextViewController: UIViewController,UIGestureRecognizerDelegate,WKNavigat
     override func viewDidLoad() {
         super.viewDidLoad()
         //web1.navigationDelegate = self
-        let path : String = Bundle.main.path(forResource:"index", ofType: "html", inDirectory: "scriptsample")!
+        let path : String = Bundle.main.path(forResource:"index", ofType: "html", inDirectory: "scriptsample1")!
         web1.loadRequest(URLRequest(url: URL(string: path)! as URL) as URLRequest)
         
         // シングルタップ
