@@ -1,5 +1,6 @@
 [hidemenubutton]
 [position height=480 top=1500]
+[bg storage=6yo.jpg time=3000]
 「ともひさ、ほら、パパが写真撮るって！」[l][cm]
 　　「はい、チーズ！」[l][cm]
 　　「ともひさー、何組だったー？」[l][cm]

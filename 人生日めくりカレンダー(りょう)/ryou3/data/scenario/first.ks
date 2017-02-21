@@ -1,5 +1,6 @@
 [hidemenubutton]
 [position height=480 top=1500]
+[bg storage=2yo.jpg time=3000]
 「ともひさ！ママの足から離れなさい！」[l][cm]
 　　「いーやーだぁー！家に帰るぅ！」[l][cm]
 　　「幼稚園いかないとおやつ抜きだよ！」[l][cm]

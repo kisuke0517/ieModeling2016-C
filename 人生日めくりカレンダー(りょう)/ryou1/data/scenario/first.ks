@@ -1,5 +1,5 @@
 [hidemenubutton]
-;[bg storage=no1.JPG time=3000]
+[bg storage=0yo.jpg time=3000]
 [position height=480 top=1500]
 おめでとうございます！新たな命がこの世に誕生しました。[l][r]
 　　　あなたの名前は「ともひさ」、元気な男の子です。[l][cm]
