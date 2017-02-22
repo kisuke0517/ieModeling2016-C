@@ -1,6 +1,6 @@
 [hidemenubutton]
 [position height=480 top=1500]
-;[bg storage=School.jpg time=3000]
+[bg storage=School.jpg time=3000]
 ;(school_colar.jpg)
 
 今日は久しぶりの学校でこうじやつよしが案の定、黒板消しを挟めてたので凛に先に行かせて黒板消しをかぶらせたら凛がなぜかこうじだけをボコボコにしていた。[l][r]
